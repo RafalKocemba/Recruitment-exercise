@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.user{
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.user:nth-child(odd){
+    background-color: #bbb;
+}
+.user:nth-child(even){
+    background-color: #ddd;
+}
+
+.user__avatar{
+    align-self: center;
+    height: 100%;
+}
+
+.search-input{
+    margin: 20px;
+}
